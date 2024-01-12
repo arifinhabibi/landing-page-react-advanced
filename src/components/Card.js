@@ -23,7 +23,7 @@ const Card = ({ title, description, imageSrc }) => {
         <a href="#">
           <HStack spacing={2} align={"end"} color={"blackAlpha.700"}>
             <Heading size={"sm"}>See More</Heading>
-            <FontAwesomeIcon icon={faArrowRight} />
+            <FontAwesomeIcon icon={faArrowRight} size={"1x"} />
           </HStack>
         </a>
       </VStack>
